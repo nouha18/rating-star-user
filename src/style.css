@@ -1,0 +1,17 @@
+h1,
+p {
+  font-family: Lato;
+}
+.App {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.star {
+  cursor: alias;
+  transition: color 200ms;
+}
+input[type='radio'] {
+  display: none;
+}
