@@ -8,10 +8,55 @@ p {
   align-content: center;
   justify-content: center;
 }
+.square {
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  border-radius: 50px;
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-self: center;
+  margin:50px;
+  padding: 18px;
+  align-items: center;
+  align-content: center;
+  box-shadow: 20px 20px 80px #cccccc, -20px -20px 20px #ffffff;
+}
+
+.paper ::grammar-error {
+  color: red;
+  background-color: red;
+}
+
 .star {
   cursor: alias;
   transition: color 200ms;
 }
+
 input[type='radio'] {
   display: none;
+}
+.link {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  font-family: 'Gill Sans';
+  color: black;
+  background-color: cornsilk;
+  animation: 2.5s infinite bright;
+}
+
+@keyframes bright {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(218, 83, 83, 0.7);
+  }
+  75% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
